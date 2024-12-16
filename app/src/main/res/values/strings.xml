@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab_8</string>
+    <string name="title">Конвертер рублей в товары</string>
+    <string name="currency1">Рубли</string>
+    <string name="currency2">Доширак куриный</string>
+    <string name="currency3">Корм для кошек "Felix"</string>
+    <string name="currency4">Килограм конфет "Крокант""</string>
+</resources>

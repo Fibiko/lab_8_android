@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_top_margine"> 20dp </dimen>
+    <dimen name="default_top_margine"> 10dp </dimen>
+    <dimen name="small_top_margine"> 5dp </dimen>
+    <dimen name="default_et_width"> 80dp </dimen>
+    <dimen name="text_main"> 20sp </dimen>
+    <dimen name="text_sub"> 16sp </dimen>
+</resources>

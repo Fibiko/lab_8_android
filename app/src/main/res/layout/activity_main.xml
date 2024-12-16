@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintVertical_chainStyle="packed"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="@dimen/text_main"
+        app:layout_constraintBottom_toTopOf="@+id/currency1"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/currency1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_top_margine"
+        android:text="@string/currency1"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toTopOf="@+id/value1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <EditText
+        android:id="@+id/value1"
+        android:layout_width="@dimen/default_et_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_top_margine"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toTopOf="@+id/currency2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currency1" />
+
+    <TextView
+        android:id="@+id/currency2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_top_margine"
+        android:text="@string/currency2"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toTopOf="@+id/value2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value1" />
+
+    <EditText
+        android:id="@+id/value2"
+        android:layout_width="@dimen/default_et_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_top_margine"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toTopOf="@+id/currency3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currency2" />
+
+    <TextView
+        android:id="@+id/currency3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_top_margine"
+        android:text="@string/currency3"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toTopOf="@+id/value3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value2" />
+
+    <EditText
+        android:id="@+id/value3"
+        android:layout_width="@dimen/default_et_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_top_margine"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toTopOf="@+id/currency4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currency3" />
+
+    <TextView
+        android:id="@+id/currency4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_top_margine"
+        android:text="@string/currency4"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toTopOf="@+id/value4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value3" />
+
+    <EditText
+        android:id="@+id/value4"
+        android:layout_width="@dimen/default_et_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_top_margine"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_sub"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currency4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
